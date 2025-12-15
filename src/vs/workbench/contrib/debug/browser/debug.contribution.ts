@@ -638,6 +638,11 @@ configurationRegistry.registerConfiguration({
 			description: nls.localize({ comment: ['This is the description for a setting'], key: 'showBreakpointsInOverviewRuler' }, "Controls whether breakpoints should be shown in the overview ruler."),
 			default: false
 		},
+		'debug.breakpointsView.showAsTree': {
+			type: 'boolean',
+			description: nls.localize({ comment: ['This is the description for a setting'], key: 'debug.breakpointsView.showAsTree' }, "Controls whether breakpoints are displayed in a tree view grouped by file, or as a flat list."),
+			default: true
+		},
 		'debug.showInlineBreakpointCandidates': {
 			type: 'boolean',
 			description: nls.localize({ comment: ['This is the description for a setting'], key: 'showInlineBreakpointCandidates' }, "Controls whether inline breakpoints candidate decorations should be shown in the editor while debugging."),
